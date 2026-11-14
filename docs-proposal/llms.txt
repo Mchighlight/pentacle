@@ -1,0 +1,44 @@
+# Pentacle
+
+> Pentacle is a control plane for AI coding agents. One daemon runs agent sessions (seats) on your machines; you talk to one always-on assistant from the web, your phone or voice. Agents track work as specs and lanes, message each other, and ask you questions you can answer from anywhere.
+
+Agents setting up Pentacle: start with AGENT_SETUP.md. Every page below is plain Markdown in the HJK6/pentacle repository. (Draft: pages marked [proposed] exist only in docs-proposal/.)
+
+## Start here
+
+- [README](https://github.com/HJK6/pentacle/blob/main/README.md): what Pentacle is, principles, how the layers fit
+- [Quickstart](docs-proposal/quickstart.md): [proposed] install, start the daemon, first seat, first question
+- [Concepts](docs-proposal/concepts.md): [proposed] host, seat, front desk, roles, spec, lane, tell/send/report, prompt ask, status card
+- [Agent setup](https://github.com/HJK6/pentacle/blob/main/AGENT_SETUP.md): checklist for a coding agent installing Pentacle for its owner
+
+## Use Pentacle
+
+- [Assistant](https://github.com/HJK6/pentacle/blob/main/docs/assistant.md): set up and run the always-on front desk
+- [Pair your phone](docs-proposal/mobile-pairing.md): [proposed] connect Pentacle Mobile with a one-time link
+- [Pentacle Mobile](https://github.com/HJK6/pentacle-mobile/blob/main/README.md): what the phone app does and how to build it
+- [Work lanes](https://github.com/HJK6/pentacle/blob/main/docs/web_work_lanes.md): how lanes show in Pentacle Web
+- [Provider accounts](https://github.com/HJK6/pentacle/blob/main/docs/provider_accounts.md): add and pool Claude, Codex and other accounts
+- [Usage accounting](https://github.com/HJK6/pentacle/blob/main/docs/usage_accounting.md): token and limit tracking
+- [Voice answers](https://github.com/HJK6/pentacle/blob/main/docs/web_voice_answers.md): answer questions by voice
+- [Connect a friend agent](https://github.com/HJK6/pentacle/blob/main/docs/connect-a-friend-agent.md): let an outside agent message your fleet
+- [Connect a ChatGPT agent](https://github.com/HJK6/pentacle/blob/main/docs/connect-a-dot-agent.md): bring a ChatGPT agent into the fleet
+
+## Help
+
+- [Troubleshooting](docs-proposal/troubleshooting.md): [proposed] symptom, checks in order, fix
+
+## Reference
+
+- [agent-orch CLI](https://github.com/HJK6/pentacle/blob/main/services/agent-orch/README.md): every command: spawn, tell, send, report, prompt, status, work-lane
+- [Machines and CLI setup](https://github.com/HJK6/pentacle/blob/main/docs/agent_orchestration_setup.md): machines file, CLI config, smoke checks
+- [Web configuration](https://github.com/HJK6/pentacle/blob/main/docs/desktop_config.md): pentacle.config.js options
+- [Daemon](https://github.com/HJK6/pentacle/blob/main/services/chat-stream-v2/README.md): daemon options and remote clients
+- [Web host](https://github.com/HJK6/pentacle/blob/main/server/README.md): serving Pentacle Web, auth and origins
+- [Network access](https://github.com/HJK6/pentacle/blob/main/docs/REMOTE_AUTH.md): daemon network auth and phone approval keys
+- [Process workspace](https://github.com/HJK6/pentacle/blob/main/PROCESS.md): specs, templates and validation
+
+## Optional
+
+- [Architecture](https://github.com/HJK6/pentacle/blob/main/docs/ARCHITECTURE.md): internals for contributors
+- [Developer onboarding](https://github.com/HJK6/pentacle/blob/main/docs/developer_onboarding.md): run and test Pentacle from source
+- [Public support boundary](https://github.com/HJK6/pentacle/blob/main/docs/public_release.md): what the public release supports
