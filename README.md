@@ -1,28 +1,42 @@
 # Pentacle
 
-**A control plane for your AI agents.**
+**Your one-person company, fully staffed.**
 
-Run a fleet of coding agents across machines, providers and accounts. They
-share one memory, follow enforced process, and report to one always-on agent
-you talk to.
+You are one person. Pentacle gives you a team: AI agents that work across your
+machines, get the job done, and keep you informed. Tell one assistant what you
+need, from your desk or your phone. It hands the work to the right agent,
+follows it to done, and asks you only when a decision is yours.
 
-## Core principles
+**Not only code.** Give your team the work a small company runs on:
 
-1. **One fleet, any provider.** Claude, Codex, Cursor, Gemini and ChatGPT
-   agents are interchangeable workers. The control plane is the constant.
-2. **Memory outlives the session.** Shared memory, work specs and procedures
+- **Market research**: size a market, map the competitors, bring back a short
+  brief with sources.
+- **Vendor search**: find suppliers, compare them side by side, draft the quote
+  requests. You pick.
+- **Meeting prep**: a briefing pack before each call: who you are meeting, what
+  they want, what to ask.
+- **Business ops**: keep follow-ups, records and weekly numbers current.
+- **Writing**: proposals, updates, posts and docs.
+- **Building**: websites, tools and apps, built and tested.
+
+## How your team works
+
+1. **One point of contact.** An always-on assistant takes your requests,
+   triages them and delegates. You never have to find the right agent.
+2. **A team across your machines.** Agents run on your laptop, desktop, servers
+   or WSL, with any provider: Claude, Codex, Cursor, Gemini and ChatGPT agents
+   are interchangeable team members. Pentacle is the constant.
+3. **Memory outlives the session.** Shared memory, work specs and procedures
    live outside any single agent or context window. Every agent starts from
    the same truth.
-3. **Work is tracked, not trusted.** Every task is a spec with a status,
+4. **Work is tracked, not trusted.** Every task is a spec with a status,
    evidence and independent QA. Nothing is done because an agent said so.
-4. **Rules are enforced, not prompted.** Roles, procedures, QA gates and usage
+5. **Rules are enforced, not prompted.** Roles, procedures, QA gates and usage
    limits are checked by the daemon. An agent cannot talk its way around them.
-5. **Agents talk to agents.** Any agent can message, spawn, commission and
-   report to any other agent in the fleet, on any machine.
-6. **One point of contact.** An always-on assistant triages, delegates and
-   answers. You never have to find the right agent.
-7. **Manage from anywhere.** Web, mobile and voice. Read status, answer a
-   question or approve from your phone.
+6. **Agents talk to agents.** Any agent can message, spawn, commission and
+   report to any other agent on your team, on any machine.
+7. **You stay informed from anywhere.** Web, mobile and voice. Read status,
+   answer a question or approve from your phone.
 
 ## How it fits together
 

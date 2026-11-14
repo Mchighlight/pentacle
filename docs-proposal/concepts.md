@@ -2,9 +2,11 @@
 
 The words used everywhere in Pentacle, in one place.
 
-Pentacle has one idea: **you talk to one assistant; it hands work to agents on
-your machines, tracks it, and asks you only when it needs you.** Eight words
-make that work.
+Pentacle gives one person a full team. **You talk to one assistant; it hands
+work to agents on your machines, follows it to done, and asks you only when a
+decision is yours.** The work can be anything an agent can do: market research,
+vendor search, meeting prep, business ops, writing or building. Eight words make
+that work.
 
 ## Host
 
@@ -44,7 +46,8 @@ seat, so another agent can pick up where the last one stopped.
 
 ## Lane
 
-A stream of work for one product area, such as "mobile" or "dashboards". A lane
+A stream of work for one area of your business, such as "marketing" or
+"website". A lane
 groups related specs and seats, and is `active`, `paused` or `blocked`. Your
 assistant posts lane updates (started, blocked, done) so you can follow the big
 picture without reading every seat.
@@ -79,16 +82,18 @@ A seat's short public summary: goal, plan steps, and latest update. Seats
 update it as they work, so you can see progress without opening the transcript.
 
 ```sh
-agent-orch status --goal "Fix login bug" --plan "Reproduce" --plan "Fix" --update "Reproduced"
+agent-orch status --goal "Compare packaging suppliers" --plan "Find suppliers" --plan "Compare" --update "Found 6"
 ```
 
 ## How they fit together
 
-You ask the **front desk** for something. It opens a **lane** or adds to one,
+You ask the **front desk** for something, say "find three packaging suppliers
+and compare them". It opens a **lane** or adds to one,
 writes a **spec**, and starts a **lead** seat on a **host**. The lead keeps its
 **status card** current, starts **workers**, and sends you a **prompt ask** if
 it needs a decision. When it finishes, it files a **report**, a **QA** seat
-checks the work, and the lane update tells you it's done.
+checks the work, and the lane update tells you it's done: the comparison is
+waiting for you to pick.
 
 ## Next
 

@@ -1,6 +1,6 @@
 # Docs proposal: task-first Pentacle docs
 
-**Status:** draft for discussion. Nothing in `docs/` is changed. The pages in this
+**Status:** draft for discussion. Nothing in `docs/` is changed; the root README intro is rewritten as a proposal. The pages in this
 folder are samples written against `HJK6/pentacle` `f369bc7f`.
 
 ## Why
@@ -84,6 +84,7 @@ Internals (for contributors)
 | [mobile-pairing.md](mobile-pairing.md) | Pair a phone, written for a person, not an agent |
 | [troubleshooting.md](troubleshooting.md) | Symptom headings, ordered checks, fixes |
 | [llms.txt](llms.txt) | Index for agents: one line per page |
+| [../README.md](../README.md) | Proposed intro: "Your one-person company, fully staffed", outcome first, business examples |
 
 ## Smallest useful version
 

@@ -1,12 +1,12 @@
 # Pentacle
 
-> Pentacle is a control plane for AI coding agents. One daemon runs agent sessions (seats) on your machines; you talk to one always-on assistant from the web, your phone or voice. Agents track work as specs and lanes, message each other, and ask you questions you can answer from anywhere.
+> Pentacle gives a one-person company a full AI team: agents on your machines that do research, writing, business operations and building, and keep you informed. One daemon runs agent sessions (seats) on your machines; you talk to one always-on assistant from the web, your phone or voice. Agents track work as specs and lanes, message each other, and ask you questions you can answer from anywhere.
 
 Agents setting up Pentacle: start with AGENT_SETUP.md. Every page below is plain Markdown in the HJK6/pentacle repository. (Draft: pages marked [proposed] exist only in docs-proposal/.)
 
 ## Start here
 
-- [README](https://github.com/HJK6/pentacle/blob/main/README.md): what Pentacle is, principles, how the layers fit
+- [README](https://github.com/HJK6/pentacle/blob/main/README.md): what Pentacle is, how your team works, how the layers fit
 - [Quickstart](docs-proposal/quickstart.md): [proposed] install, start the daemon, first seat, first question
 - [Concepts](docs-proposal/concepts.md): [proposed] host, seat, front desk, roles, spec, lane, tell/send/report, prompt ask, status card
 - [Agent setup](https://github.com/HJK6/pentacle/blob/main/AGENT_SETUP.md): checklist for a coding agent installing Pentacle for its owner
