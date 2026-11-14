@@ -35,9 +35,9 @@ Alternative H1s:
 Small line: Not just code. Anything you'd hire someone for.
 
 Cards (the job → what you get back):
-- **Research** a market, a company or a question → a short report you can read on your phone.
-- **Job search** → roles found, applications drafted. You press Submit.
-- **Interview prep** → a study pack with practice questions.
+- **Market research** on a market, competitors or a question → a short report you can read on your phone.
+- **Vendor search** → suppliers found, compared and quotes requested. You pick.
+- **Meeting prep** → a briefing pack before every call.
 - **Business ops** → your CRM and records kept current.
 - **Writing** → docs, plans and updates drafted for your review.
 - **Building** → code written, tested and shipped.
@@ -109,7 +109,7 @@ your whole operation.
 | | Coding-agent apps | Pentacle |
 | --- | --- | --- |
 | What you manage | Branches, diffs, terminals | Outcomes |
-| What gets done | Code | Research, writing, ops, job search, code |
+| What gets done | Code | Research, vendor search, writing, ops, code |
 | Who you talk to | Each agent, one by one | One assistant |
 | Where it runs | One workspace | Every computer you own |
 | Where you steer from | Your desk | Your phone, anywhere |
@@ -164,7 +164,7 @@ provider · Web app · iPhone app · Command line
    work to other agents, and you follow along and decide from your phone.
 
 2. **Is it only for coding?**
-   No. Agents do research, writing, job search, business admin and code. If an
+   No. Agents do market research, vendor search, writing, business admin and code. If an
    agent can do it on a computer, Pentacle can hand it out and track it.
 
 3. **Which AI agents does it use?**
@@ -188,7 +188,7 @@ provider · Web app · iPhone app · Command line
 
 8. **What do I still have to do myself?**
    Decide. Agents ask before anything risky, and things like sending an
-   application or approving a change wait for you.
+   email or approving a change wait for you.
 
 ## 10. Final call to action
 
