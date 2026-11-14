@@ -43,5 +43,5 @@ it must say "coming" or be cut.
 - Not "one-click install" or "in the App Store" (both coming).
 - Not Android support (iPhone is what's tested; Face ID is iPhone-only).
 - No customer logos, user counts or testimonials (none exist yet).
-- Job search, interview prep, CRM work etc. are *examples of work agents do
+- Market research, vendor search, meeting prep, CRM work etc. are *examples of work agents do
   inside Pentacle*, not special built-in features. Copy must frame them that way.
